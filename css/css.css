@@ -29,8 +29,13 @@ a {
 	padding: .5rem;
 	background-color: #FFFFAD;
 	border-radius: 20px;
+
 }
 
 section {
-	padding: .5rem;
+	padding: 1rem;
+}
+
+.more-data, .select-city {
+	padding: 2rem;
 }
