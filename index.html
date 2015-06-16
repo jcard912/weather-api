@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather API</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+	</head>
+
+
+	<body>
+		<div class="content-container to-center" id="temp>
+			
+			<section class="location spaced-top-bottom">
+				<p class="location-text center-text"></p>
+			</section>
+			
+			<section class="circle unfilled spaced-top-bottom">
+				<p id="temp" class="title center-text"></p>
+			</section>
+
+			<section>
+				<p class="data-trigger center-text"></p>
+				<p class="more-data center-text"></p>
+			</section>
+			<section>
+				<p class="form-trigger center-text"><a href="#">Select a City</a></p>
+				<form class="select-city">
+					<div class="center-text"><input class="center-text" type="text" name="zip" id="zip" placeholder="Enter a Postal Code." /><button>Go</button><div>
+				</form>
+			</section>
+		</div>
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
